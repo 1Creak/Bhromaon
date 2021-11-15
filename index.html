@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/pl.png" type="image/x-icon">
+    <title>Bhromaon</title>
+</head>
+
+<body>
+    <svg display="none">
+        <symbol viewbox="0 -8 50 100" id="youtube">
+            <path d="M55.092,7.882c-0.529-4.177-2.942-6.797-7.225-7.184C42.963,0.255,32.347,0,27.423,0C17.351,0,12.85,0.246,8.087,0.739
+            C3.548,1.208,1.561,3.225,0.78,7.389C0.233,10.307,0,13.04,0,19.499c0,5.802,0.274,9.451,0.698,12.521
+            c0.583,4.216,3.477,6.585,7.718,6.938c4.934,0.411,14.818,0.616,19.705,0.616c4.722,0,15.349-0.246,20.074-0.78
+            c4.229-0.478,6.24-2.737,6.897-6.897c0,0,0.698-4.557,0.698-12.439C55.79,14.97,55.462,10.796,55.092,7.882z M21.963,27.628V11.59
+            l15.271,7.937L21.963,27.628z" />
+        </symbol>
+    </svg>
+    <svg display="none">
+        <symbol viewbox="0 0 60 100" id="twitter">
+            <g>
+                <path d="M62.77,5.992c-2.283,1.141-4.85,1.712-7.418,1.997c2.568-1.712,4.565-3.994,5.706-7.133
+                c-2.568,1.427-5.136,2.568-8.274,3.138C50.501,1.426,47.078,0,43.369,0C36.236,0,30.53,5.706,30.53,12.839
+                c0,1.141,0,1.997,0.285,2.853C20.258,15.121,10.843,9.986,4.281,2.282C3.14,4.279,2.569,6.276,2.569,8.844
+                c0,4.565,2.283,8.274,5.706,10.557c-1.997,0-3.994-0.571-5.706-1.712v0.285c0,6.277,4.28,11.413,10.271,12.554
+                c-1.141,0.285-2.283,0.571-3.424,0.571c-0.856,0-1.712,0-2.283-0.285c1.712,5.136,6.277,8.845,11.983,8.845
+                c-4.28,3.424-9.986,5.421-15.978,5.421c-1.141,0-1.997,0-3.138-0.285c5.706,3.709,12.269,5.706,19.687,5.706
+                c23.681,0,36.52-19.401,36.52-36.52v-1.712C59.061,10.842,61.058,8.56,62.77,5.992z" />
+            </g>
+        </symbol>
+    </svg>
+    <svg display="none">
+        <symbol viewbox="0 0 100 200" id="pinterest">
+            <path
+                d="M49.312,0C22.078,0,0,22.078,0,49.312s22.078,49.312,49.312,49.312s49.312-22.078,49.312-49.312S76.546,0,49.312,0z
+            M68.656,56.463c-3.723,4.786-8.509,7.179-14.358,7.179c-1.928,0-3.756-0.465-5.484-1.396c-1.728-0.931-2.925-2.027-3.59-3.29
+           c-1.396,5.717-2.26,9.107-2.592,10.17c-1.064,3.855-3.29,7.91-6.681,12.165c-0.399,0.399-0.665,0.332-0.798-0.199
+           c-0.798-5.65-0.764-10.337,0.1-14.059l4.686-20.241c-0.798-1.529-1.197-3.457-1.197-5.783c0-2.725,0.698-5.002,2.094-6.83
+           s3.091-2.742,5.085-2.742c1.595,0,2.825,0.515,3.689,1.546c0.864,1.03,1.296,2.343,1.296,3.939c0,0.997-0.183,2.21-0.548,3.639
+           c-0.366,1.429-0.848,3.091-1.446,4.985c-0.598,1.895-1.03,3.407-1.296,4.537c-0.465,1.928-0.1,3.606,1.097,5.035
+           s2.792,2.144,4.786,2.144c3.39,0,6.182-1.928,8.376-5.783c2.194-3.855,3.29-8.509,3.29-13.959c0-4.188-1.346-7.595-4.038-10.22
+           c-2.692-2.626-6.465-3.939-11.317-3.939c-5.451,0-9.855,1.745-13.212,5.235s-5.035,7.661-5.035,12.514
+           c0,2.858,0.831,5.285,2.493,7.279c0.532,0.665,0.698,1.33,0.499,1.994c-0.067,0.133-0.15,0.482-0.249,1.047
+           c-0.1,0.565-0.183,0.964-0.249,1.197s-0.199,0.582-0.399,1.047c-0.199,0.465-0.432,0.681-0.698,0.648s-0.598-0.05-0.997-0.05
+           c-5.052-2.061-7.578-6.747-7.578-14.059c0-5.85,2.36-11.168,7.079-15.954c4.72-4.786,11.168-7.179,19.344-7.179
+           c6.847,0,12.464,2.094,16.851,6.282c4.387,4.188,6.581,9.14,6.581,14.857C74.24,45.594,72.378,51.677,68.656,56.463z" />
+        </symbol>
+    </svg>
+    <svg display="none">
+        <symbol viewbox="0 0 100 200" id="facebook">
+            <path d="M49.312,0C22.078,0,0,22.078,0,49.312s22.078,49.312,49.312,49.312s49.312-22.078,49.312-49.312S76.546,0,49.312,0z
+            M63.8,28.265c-2.344,0-4.703,0-7.046,0c-1.483-0.096-3.013,1.036-3.284,2.519c-0.032,2.567-0.016,5.133-0.016,7.7
+           c3.443,0.016,6.887,0,10.331,0.016c-0.255,3.714-0.717,7.413-1.259,11.08c-3.045,0.032-6.09,0-9.135,0.016
+           c-0.032,10.952,0.016,21.888-0.016,32.841c-4.528,0.016-9.039-0.016-13.567,0.016c-0.08-10.952,0-21.904-0.048-32.857
+           c-2.2-0.016-4.416,0.016-6.616-0.016c0.016-3.683,0-7.365,0-11.032c2.2-0.032,4.416,0,6.616-0.016
+           c0.064-3.571-0.064-7.158,0.064-10.729c0.239-2.854,1.307-5.707,3.428-7.668c2.567-2.439,6.201-3.268,9.645-3.364
+           c3.635-0.032,7.27-0.016,10.904-0.016C63.816,20.597,63.816,24.423,63.8,28.265z" />
+        </symbol>
+    </svg>
+    <svg display="none" id="search">
+        <symbol viewbox="0 0 58 57" id="search1">
+            <g id="how_it_works">
+                <g id="Search">
+                    <path id="o" class="shp0"
+                        d="M57.27 53.81L54.31 56.77L38 40.45C37.06 41.3 36.03 42.05 34.91 42.7C33.78 43.36 32.61 43.92 31.39 44.39C30.17 44.86 28.88 45.21 27.52 45.45C26.16 45.68 24.83 45.8 23.52 45.8C20.33 45.8 17.35 45.19 14.59 43.97C11.82 42.75 9.4 41.11 7.34 39.05C5.28 36.99 3.66 34.57 2.49 31.8C1.32 29.04 0.73 26.11 0.73 23.02C0.73 19.83 1.32 16.85 2.49 14.09C3.66 11.32 5.28 8.91 7.34 6.84C9.4 4.78 11.82 3.17 14.59 1.99C17.35 0.82 20.33 0.23 23.52 0.23C26.61 0.23 29.54 0.82 32.3 1.99C35.07 3.17 37.48 4.78 39.55 6.84C41.61 8.91 43.25 11.32 44.47 14.09C45.69 16.85 46.3 19.83 46.3 23.02C46.3 24.33 46.18 25.67 45.95 27.02C45.71 28.38 45.36 29.67 44.89 30.89C44.42 32.11 43.86 33.28 43.2 34.41C42.55 35.53 41.8 36.56 40.95 37.5L57.27 53.81L57.27 53.81ZM3.12 23.02C3.12 25.83 3.64 28.45 4.67 30.89C5.7 33.33 7.15 35.48 9.03 37.36C10.91 39.24 13.09 40.71 15.57 41.79C18.05 42.87 20.7 43.41 23.52 43.41C26.33 43.41 28.95 42.87 31.39 41.79C33.83 40.71 35.98 39.24 37.86 37.36C39.73 35.48 41.21 33.33 42.29 30.89C43.37 28.45 43.91 25.83 43.91 23.02C43.91 20.2 43.37 17.56 42.29 15.07C41.21 12.59 39.73 10.41 37.86 8.53C35.98 6.66 33.83 5.2 31.39 4.17C28.95 3.14 26.33 2.62 23.52 2.62C20.7 2.62 18.05 3.14 15.57 4.17C13.09 5.2 10.91 6.66 9.03 8.53C7.15 10.41 5.7 12.59 4.67 15.07C3.64 17.56 3.12 20.2 3.12 23.02L3.12 23.02Z" />
+                </g>
+            </g>
+        </symbol>
+    </svg>
+    <svg display="none">
+        <symbol viewbox="0 0 15 8" id="rowdown">
+            <g id="Header">
+                <g id="scroll_down">
+                    <path id="p" class="shp0"
+                        d="M4.12 4.65L0.75 1.28L1.59 0.43L7.5 6.34L13.41 0.36L14.25 1.21L7.5 8.03L6.66 7.18L4.12 4.65Z" />
+                </g>
+            </g>
+        </symbol>
+    </svg>
+    <header class="header">
+        <section class="h-block">
+            <h1 class="h-block__title">Bhromaon</h1>
+            <p class="h-block__description"><b>Safe travel Anywhere</b></p>
+            <form class="h-block__form h-form">
+                <input type="text" class="h-form__input" placeholder="Search Your Travel Destination">
+                <button class="h-form__btn">
+                    <span class="h-form__btn__text">SEARCH</span>
+                    <img class="h-form__btn__img" src="./img/search.png" alt="search">
+                </button>
+            </form>
+            <span class="h-block__scrool">
+                <a href="#down">Scrool Down</a>
+            </span>
+            <svg id="row" class="h-block__rowdown" width="20px" height="20px">
+                <use xlink:href="#rowdown"></use>
+            </svg>
+        </section>
+    </header>
+    <main class="main">
+        <nav class="h-nav block">
+            <div class="header__nav">
+                <h2 class="h-nav__logo">Bhromaon</h2>
+                <input type="checkbox" id="burg" class="header__nav__burger">
+                <label for="burg" id="circle" class="circle"></label>
+                <label for="burg" class="nav__burger-img"></label>
+                <ul class="h-nav__menu menu">
+                    <li class="menu__item"><a href="#what_we_are" class="menu__link">What We Are</a></li>
+                    <li class="menu__item"><a href="#what_we_do" class="menu__link">What We Do</a></li>
+                    <li class="menu__item"><a href="#travel" class="menu__link">Travel With Us</a></li>
+                    <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="what_we_are" class="choose block">
+            <article class="choose__block ">
+                <h3 class=" choose__title">Why Choose Us</h3>
+                <p class="choose__text">Tion and dislike men who are so beguiled and demoralized by desire by the
+                    charms
+                    of pleasure of the
+                    moment, so blinded by desire, that they cannot foresee</p>
+
+                <p class=" choose__text">Ddislike men who are so beguiled and demoralized by the charms of
+                    pleasure
+                    of
+                    the moment, so blinded
+                    by desire, that.</p>
+                <button class="button">Explore Place</button>
+            </article>
+            <div class="choose__block gallery">
+                <img src="./img/imgblock2.png" alt="house">
+                <img class="gallery__img" src="./img/imgblock.png" alt="mountains">
+            </div>
+        </section>
+        <section class="footer-c block">
+            <ul class="footer-c__list">
+                <li class="footer-c__list__item"><a href="https://www.google.com.ua/maps"><img
+                            class="footer-c__list__img" src="./img/search.svg" alt="search">
+                        <p>Search Places</p>
+                    </a>
+                </li>
+                <li><a href="#"><img class="footer-c__list__img" src="./img/ok.svg" alt="Select Places">
+                        <p>Select Places</p>
+                    </a>
+                </li>
+                <li><a href="#"><img class="footer-c__list__img" src="./img/like.svg" alt="Book">
+                        <p>Book & Enjoy</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="what_we_do" class="country block">
+            <div class="country__block">
+                <article class="country__info">
+                    <p class="country__indent">
+                        Spain
+                    </p>
+                    <p class=" country__title country__indent">Grand spain madrid</p>
+                    <p class="country__text">But I must explain to you how all this mistaken idea of account to
+                        denouncing
+                        pleasure and
+                        praising pain was account born and I account will give you a complete account of the system</p>
+                    <button class="button">Book Now</button>
+                </article>
+            </div>
+        </section>
+        <section class="country-s block">
+            <div class="country-s__block">
+                <article class="country-s__info">
+                    <p class="country-s__indent">
+                        Spain
+                    </p>
+                    <p class=" country-s__title country-s__indent">Grand spain madrid</p>
+                    <p class="country-s__text">But I must explain to you how all this mistaken idea of account to
+                        denouncing
+                        pleasure and
+                        praising pain was account born and I account will give you a complete account of the system</p>
+                    <button class="button">Book Now</button>
+                </article>
+            </div>
+        </section>
+        <section id="travel" class="comments block">
+            <h4 class="comments__title">What Our Tourist Say</h4>
+            <div class="comments__block">
+                <img class="comments__img" src="./img/Rectangle41441.png" alt="Tourist">
+                <div class="comments__block__info info">
+                    <p class="comments__block__title">Sam Sumon</p>
+                    <p class="comments__block__text">"But I must explain to you how all this
+                        mistaken idea
+                        of account
+                        to
+                        denouncinpleasure and
+                        praising pain But I must explain to you how all this mistaken idea of account to nai
+                        denouncing pleasure and praising pain was account born and I account will give you a
+                        complete account of the system was account born and I account will give you a nai the
+                        complete account of the system</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="footer block">
+        <div id="down" class="footer__block">
+            <h5 class="footer__title">Bhromaon</h5>
+            <p class="footer__text">Safe Travel Anywhere</p>
+            <ul class="footer__list">
+                <li class="footer__list__item"><a href="№"><svg width="50" height="50" style="fill: white;">
+                            <use class="social__network" xlink:href="#facebook"></use>
+                        </svg>
+                    </a></li>
+                <li class="footer__list__item"><a href="№"><svg width="50" height="50" style="fill: white;">
+                            <use class="social__network" xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="footer__list__item"><a href="№"><svg width="50" height="50" style="fill: white;">
+                            <use class="social__network" xlink:href="#youtube"></use>
+                        </svg></a></li>
+                <li class="footer__list__item"><a href="№"><svg width="50" height="50" style="fill: white;">
+                            <use class="social__network" xlink:href="#pinterest"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
